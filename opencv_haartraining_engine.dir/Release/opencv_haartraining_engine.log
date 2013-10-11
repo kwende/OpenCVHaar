@@ -1,0 +1,17 @@
+﻿Build started 10/10/2013 6:29:15 PM.
+     1>Project "C:\OpenCV2.4.6\apps\haartraining\opencv_haartraining_engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:/OpenCV2.4.6/modules/legacy/include /IC:/OpenCV2.4.6/modules/flann/include /IC:/OpenCV2.4.6/modules/features2d/include /IC:/OpenCV2.4.6/modules/video/include /IC:/OpenCV2.4.6/modules/calib3d/include /IC:/OpenCV2.4.6/modules/objdetect/include /IC:/OpenCV2.4.6/modules/highgui/include /IC:/OpenCV2.4.6/modules/imgproc/include /IC:/OpenCV2.4.6/modules/core/include /IC:/OpenCV2.4.6/include/opencv /IC:/OpenCV2.4.6/apps/haartraining /IC:/OpenCV2.4.6 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D HAVE_CVCONFIG_H /D _VARIADIC_MAX=10 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHa /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"opencv_haartraining_engine.dir\Release\\" /Fd"C:/OpenCV2.4.6/lib/Release/opencv_haartraining_engine.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt  /bigobj cvhaartraining.cpp
+         cvhaartraining.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\OpenCV2.4.6\lib\Release\opencv_haartraining_engine.lib" /NOLOGO opencv_haartraining_engine.dir\Release\cvboost.obj
+         opencv_haartraining_engine.dir\Release\cvcommon.obj
+         opencv_haartraining_engine.dir\Release\cvhaarclassifier.obj
+         opencv_haartraining_engine.dir\Release\cvhaartraining.obj
+         opencv_haartraining_engine.dir\Release\cvsamples.obj
+         opencv_haartraining_engine.vcxproj -> C:\OpenCV2.4.6\lib\Release\opencv_haartraining_engine.lib
+     1>Done Building Project "C:\OpenCV2.4.6\apps\haartraining\opencv_haartraining_engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
